@@ -52,6 +52,7 @@ public class Hauptreihenstern implements Star {
 
 	@Override
 	public void setMass(double newMass) {
+		assert(newMass >= 0);
 		this.mass = newMass;
 	}
 

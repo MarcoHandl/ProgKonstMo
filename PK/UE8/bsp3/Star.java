@@ -19,7 +19,7 @@ public interface Star {
 	
 	/**
 	 * sets the Mass of the Star
-	 * @param newMass must be greater then 0
+	 * @param newMass must be >= 0
 	 */
 	void setMass(double newMass);
 	

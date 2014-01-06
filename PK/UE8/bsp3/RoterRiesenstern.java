@@ -56,7 +56,7 @@ public class RoterRiesenstern implements Star {
 
 	@Override
 	public void setMass(double newMass) {
-		//TODO Assert bei allen Sternen das die Masse nicht kleiner 0 sein darf
+		assert(newMass >= 0);
 		this.mass = newMass;
 	}
 

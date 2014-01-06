@@ -6,6 +6,7 @@ public class MainSequenceStar implements Star {
 	
 	public MainSequenceStar(double mass) {
 		super();
+		assert(mass > 0);
 		state = new Gaswolke(mass);
 	}
 

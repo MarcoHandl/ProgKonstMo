@@ -52,6 +52,7 @@ public class Gaswolke implements Star {
 
 	@Override
 	public void setMass(double newMass) {
+		assert(newMass >= 0);
 		this.mass = newMass;
 	}
 
